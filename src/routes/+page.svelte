@@ -1,6 +1,10 @@
 <script lang="ts">
   import '../app.css';
   import Seperator from './Seperator.svelte';
+  import Backend from './tech/Backend.svelte';
+  import DevOps from './tech/DevOps.svelte';
+  import Frontend from './tech/Frontend.svelte';
+  import Misc from './tech/Misc.svelte';
 </script>
 
 <svelte:head>
@@ -9,21 +13,21 @@
 <div class="min-h-screen bg-zinc-50 p-4 text-zinc-950 dark:bg-zinc-950 dark:text-zinc-50">
   <div class="flex justify-between">
     <div>
-      <h1 class="text-2xl font-bold">cz.cs</h1>
+      <h1 class="font-display text-2xl font-bold">cz.cs</h1>
       <p>Full Stack Software Engineer</p>
     </div>
     <div class="flex items-center gap-4 self-center">
       <a class="opacity-50 transition-all hover:opacity-100" href="https://github.com/cz-cs">
-        <img class="h-9 w-9 invert dark:invert-0" src="/img/github.png" /></a
+        <img class="h-9 w-9 invert dark:invert-0" src="/img/github.webp" alt="" /></a
       >
       <a class="opacity-50 transition-all hover:opacity-100" href="https://gears.sh/@cz.cs">
-        <img class="h-7 invert dark:invert-0" src="/img/gears-short.png" /></a
+        <img class="h-7 invert dark:invert-0" src="/img/gears-short.webp" alt="" /></a
       >
       <a
         class="opacity-50 transition-all hover:opacity-100"
         href="https://discord.com/users/1148691793584590868"
       >
-        <img class="h-9 w-9 invert dark:invert-0" src="/img/discord.png" /></a
+        <img class="h-9 w-9 invert dark:invert-0" src="/img/discord.webp" alt="" /></a
       >
     </div>
   </div>
@@ -60,17 +64,18 @@
   <div class="space-y-2">
     <h2 class="text-xl font-semibold">Technologies I'm familiar with</h2>
     <h3 class="text-lg font-medium">Frontend</h3>
-    <img class="h-12" src="https://skillicons.dev/icons?i=html,css,js,ts,svelte,tailwind,react" />
+    <Frontend />
     <h3 class="text-lg font-medium">Backend</h3>
-    <img class="h-12" src="https://skillicons.dev/icons?i=cs,cpp,nodejs,dotnet" />
+    <Backend />
     <h3 class="text-lg font-medium">DevOps</h3>
-    <img
-      class="h-12"
-      src="https://skillicons.dev/icons?i=docker,kubernetes,github,gitlab,bitbucket,raspberrypi"
-    />
+    <DevOps />
     <h3 class="text-lg font-medium">Misc.</h3>
-    <img class="h-12" src="https://skillicons.dev/icons?i=ps,pr,ai,bash,linux,git" />
-    <img class="mt-6 h-12" src="/img/professional-visual.png" />
+    <Misc />
+    <img
+      class="mt-6 h-12"
+      src="/img/professional-visual.webp"
+      alt="Adobe Professional Visual Design certificate"
+    />
   </div>
   <Seperator />
   <div class="space-y-2">
@@ -98,7 +103,11 @@
     </ul>
   </div>
   <div class="-mx-4 my-5 h-px bg-zinc-200 dark:bg-zinc-800"></div>
-  <p class="text-center text-xs font-medium text-zinc-400">
-    copyright cz.cs or whatever happy new year
+  <p class="text-center text-xs text-zinc-400">
+    copyright cz.cs or whatever happy new year | icons by <a
+      class="font-medium underline-offset-4 hover:underline"
+      href="https://skillicons.dev"
+      target="_blank">Skill Icons</a
+    >
   </p>
 </div>

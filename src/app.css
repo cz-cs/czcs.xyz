@@ -1,5 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import 'tailwindcss';
+@font-face {
+  font-family: 'Funnel Sans';
+  font-style: normal;
+  src: url('fonts/regular.ttf');
+}
+@font-face {
+  font-family: 'Funnel Sans';
+  font-style: italic;
+  src: url('fonts/italic.ttf');
+}
+@font-face {
+  font-family: 'Funnel Display';
+  src: url('fonts/display.ttf');
+}
 @theme {
   --default-font-family: 'Funnel Sans';
+  --font-display: 'Funnel Display';
 }
