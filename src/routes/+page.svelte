@@ -18,16 +18,13 @@
     </div>
     <div class="flex items-center gap-4 self-center">
       <a class="opacity-50 transition-all hover:opacity-100" href="https://github.com/cz-cs">
-        <img class="h-9 w-9 invert dark:invert-0" src="/img/github.webp" alt="" /></a
-      >
-      <a class="opacity-50 transition-all hover:opacity-100" href="https://gears.sh/@cz.cs">
-        <img class="h-7 invert dark:invert-0" src="/img/gears-short.webp" alt="" /></a
+        <img class="invert dark:invert-0" src="/img/github.webp" alt="" /></a
       >
       <a
         class="opacity-50 transition-all hover:opacity-100"
         href="https://discord.com/users/1148691793584590868"
       >
-        <img class="h-9 w-9 invert dark:invert-0" src="/img/discord.webp" alt="" /></a
+        <img class="invert dark:invert-0" src="/img/discord.webp" alt="" /></a
       >
     </div>
   </div>
@@ -72,7 +69,7 @@
     <h3 class="text-lg font-medium">Misc.</h3>
     <Misc />
     <img
-      class="mt-6 h-12"
+      class="mt-6"
       src="/img/professional-visual.webp"
       alt="Adobe Professional Visual Design certificate"
     />

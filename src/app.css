@@ -3,15 +3,18 @@
   font-family: 'Funnel Sans';
   font-style: normal;
   src: url('/fonts/regular.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Funnel Sans';
   font-style: italic;
   src: url('/fonts/italic.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Funnel Display';
   src: url('/fonts/display.ttf');
+  font-display: swap;
 }
 @theme {
   --default-font-family: 'Funnel Sans';
