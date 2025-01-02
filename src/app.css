@@ -2,16 +2,16 @@
 @font-face {
   font-family: 'Funnel Sans';
   font-style: normal;
-  src: url('fonts/regular.ttf');
+  src: url('/fonts/regular.ttf');
 }
 @font-face {
   font-family: 'Funnel Sans';
   font-style: italic;
-  src: url('fonts/italic.ttf');
+  src: url('/fonts/italic.ttf');
 }
 @font-face {
   font-family: 'Funnel Display';
-  src: url('fonts/display.ttf');
+  src: url('/fonts/display.ttf');
 }
 @theme {
   --default-font-family: 'Funnel Sans';
