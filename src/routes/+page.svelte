@@ -17,14 +17,19 @@
       <p>Full Stack Software Engineer</p>
     </div>
     <div class="flex items-center gap-4 self-center">
-      <a class="opacity-50 transition-all hover:opacity-100" href="https://github.com/cz-cs">
-        <img class="invert dark:invert-0" src="/img/github.webp" alt="" /></a
+      <a
+        class="opacity-50 transition-all hover:opacity-100"
+        aria-label="My GitHub profile"
+        href="https://github.com/cz-cs"
+      >
+        <img class="h-9 w-9 invert dark:invert-0" src="/img/github.webp" alt="" /></a
       >
       <a
         class="opacity-50 transition-all hover:opacity-100"
+        aria-label="My Discord profile"
         href="https://discord.com/users/1148691793584590868"
       >
-        <img class="invert dark:invert-0" src="/img/discord.webp" alt="" /></a
+        <img class="h-9 w-9 invert dark:invert-0" src="/img/discord.webp" alt="" /></a
       >
     </div>
   </div>
@@ -53,7 +58,7 @@
         > at the moment. hopefully released soon!!).
       </p>
     </div>
-    <p class="text-sm font-medium text-zinc-400">
+    <p class="text-sm font-medium opacity-50">
       TL;DR: I've been fascinated with computers basically my whole life.
     </p>
   </div>
@@ -69,7 +74,7 @@
     <h3 class="text-lg font-medium">Misc.</h3>
     <Misc />
     <img
-      class="mt-6"
+      class="mt-6 h-12 w-12"
       src="/img/professional-visual.webp"
       alt="Adobe Professional Visual Design certificate"
     />
@@ -100,9 +105,9 @@
     </ul>
   </div>
   <div class="-mx-4 my-5 h-px bg-zinc-200 dark:bg-zinc-800"></div>
-  <p class="text-center text-xs text-zinc-400">
+  <p class="text-center text-sm font-medium opacity-50">
     copyright cz.cs or whatever happy new year | icons by <a
-      class="font-medium underline-offset-4 hover:underline"
+      class="font-semibold underline-offset-4 hover:underline"
       href="https://skillicons.dev"
       target="_blank">Skill Icons</a
     >
